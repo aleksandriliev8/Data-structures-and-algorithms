@@ -88,7 +88,7 @@ void free_list(ListNode* list)
     {
         ListNode* to_delete = list;
         list = list->next;
-        delete list;
+        delete to_delete;
     }
 }
 
